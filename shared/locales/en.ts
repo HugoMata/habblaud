@@ -2586,4 +2586,7 @@ export const EN: Readonly<Record<string, string>> = {
 
   // server/pty/manager.ts (assumir sessão sem conversa)
   "Agente {0} ainda não tinha conversa: abrindo uma sessão nova na mesma pasta.": "Agent {0} had no conversation yet: opening a new session in the same folder.",
+
+  // client/src/ui/pty.ts, ptypane.ts (conexão, envio)
+  "não foi possível enviar: {0}": "couldn't send: {0}",
 };
