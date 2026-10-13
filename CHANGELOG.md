@@ -10,6 +10,12 @@ do meio (0.**3**.0).
 
 ## [Não lançado]
 
+### Corrigido
+
+- "Assumir daqui" numa sessão que ainda não tinha recebido nenhuma mensagem encerrava a sessão no outro terminal e o
+  terminal novo saía na hora (`claude --resume` não acha conversa sem mensagens). Sem conversa gravada, o Habblaud abre
+  uma sessão nova na mesma pasta (não há nada a retomar).
+
 ## [0.11.0] - 2026-10-13
 
 Para atualizar: `git pull` e `npm run docker:up` (ele também atualiza o mod do Habblaud nas contas). O acesso pelo
